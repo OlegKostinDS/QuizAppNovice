@@ -61,7 +61,7 @@
 
         android:text="@string/next_button"
         app:layout_constraintStart_toStartOf="@id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/false_button" />
+        app:layout_constraintTop_toBottomOf="@+id/cheat_button" />
 
     <Button
         android:id="@+id/prev_button"
@@ -73,6 +73,16 @@
         android:text="@string/prev_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintEnd_toStartOf="@id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/false_button" />
+        app:layout_constraintTop_toBottomOf="@+id/cheat_button" />
 
+    <Button
+        android:id="@+id/cheat_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/cheat_button"
+        app:layout_constraintBottom_toTopOf="@id/next_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/false_button" />
 </androidx.constraintlayout.widget.ConstraintLayout>
